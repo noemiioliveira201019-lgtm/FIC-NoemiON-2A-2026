@@ -1,0 +1,12 @@
+body{
+    color: white;
+    font-family: Arial,sans-serif;
+margin: 100;
+padding: 1000;
+background-color: rgba(0, 0, 0, 0.932);
+}
+
+a{
+text-decoration: none;
+color: white;
+}
