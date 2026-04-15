@@ -1,0 +1,136 @@
+/*Pagina home*/
+/*cor das pagnias e fontes*/
+body{
+    margin:0;
+    font-family: Gloucester MT Extra Condensed;
+    font-size: 20px;
+    background-color: rgb(49, 3, 110);
+    color:rgb(192, 55, 255)
+}
+/*aba de site*/
+header{
+background-color: rgb(93, 5, 133);
+padding:20px;
+}
+
+nav{
+    text-align:center;
+}
+
+nav a{
+color:rgb(255, 255, 255);
+margin:20px;
+text-decoration:none;
+font-weight: bold;
+font-size: 25px;
+font-family: Gloucester MT Extra Condensed;
+}
+
+nav a:hover {
+    background-color: rgb(133, 5, 112);
+    color: rgb(73, 17, 161);            
+}          
+/*sla*/
+.conteudo{
+padding: 40px;
+}
+/*sobre h1*/
+h1{
+font-size: 45px;
+margin-bottom: 30px;
+}
+
+.area{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+/*imagens*/
+.area img{
+width: 300px;
+border-radius: 10px;
+}
+
+.area p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+.area img{
+    width: 300px;
+    border-radius: 10px;
+    animation: pular 2s infinite;
+}
+
+@keyframes pular {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+
+
+
+/*Pagina sobre*/
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* TEXTO */
+.texto {
+    width: 60%;
+}
+
+/* IMAGEM NA DIREITA */
+.imagem {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+/* FOTO */
+.foto {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/*pagina projetos*/
+
+
+/*pagina contato*/
+.contato {
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(107, 10, 116);;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 20px;
+    background-color: #7f25d3;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-whatsapp:hover {
+    background-color: #c300ff;
+}
+
+.qr {
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 10px;
+}
